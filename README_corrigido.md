@@ -22,7 +22,7 @@ O dataset contém informações sobre clientes, pedidos, itens, pagamentos, aval
 
 ## Principais Queries
 
-### 1. Quais estados mais compram?  
+### 1. Quais estados mais compra?  
 ```sql
 SELECT customer_state, COUNT(*) AS total_pedidos
 FROM olist_orders_dataset o
